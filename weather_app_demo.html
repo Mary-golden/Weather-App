@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App Demo</title>
+    <style>
+      h1 {
+        color: black;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        font-size: 40px;
+      }
+      h2 {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        font-size: 35px;
+      }
+      .following {
+        text-align: center;
+        display: block;
+        font-size: 25px;
+      }
+      .Sun {
+        text-align: center;
+        display: block;
+        font-size: 25px;
+      }
+      .Mon {
+        text-align: center;
+        display: block;
+        font-size: 25px;
+      }
+      button {
+        color: rgb(45, 43, 43);
+        display: block;
+        font-size: 16px;
+        padding: 15px 20px;
+        background: lightgray;
+        text-decoration: none;
+        margin: 20px auto;
+        border: 1px solid rgb(4, 4, 4);
+        border-radius: 40px;
+        font-size: 30px;
+      }
+      button:hover {
+        background: rgb(41, 27, 27);
+        color: black;
+        cursor: pointer;
+        transition: all 200ms ease-in-out;
+      }
+      body {
+        background: url("https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638886301/EducationHub/photos/lightning-bolts.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤
+      <br />
+      Currently 21° in Midrand
+    </h1>
+    <br />
+    <h2>
+      Cloudy
+      <br />
+      HIGH 23° / LOW 13°
+    </h2>
+    <br />
+    <ul>
+      <li class="following day">
+        <h3>🌧Tomorrow</h3>
+        <p>
+          17° /
+          <strong>26°</strong>
+        </p>
+        <br />
+      </li>
+      <li class="Sun">
+        <h3>🌥 Sunday</h3>
+        <p>
+          17° /
+          <strong>26°</strong>
+        </p>
+        <br />
+      </li>
+      <li class="Mon">
+        <h3>☀️ Monday</h3>
+        <p>
+          18° /
+          <strong>28°</strong>
+        </p>
+      </li>
+      <br />
+    </ul>
+    <button>Change city</button>
+  </body>
+</html>

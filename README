@@ -1,0 +1,12 @@
+This a weather app demo that displays the current weather for
+a 3-day forecast in Midrand city.
+
+- it has current weather dispaly
+- 3-day weather forecast 
+- Change city option
+
+#Note that this is not a real-time app
+
+#How to open the app
+
+Download the zip, open the html file on a browser.
